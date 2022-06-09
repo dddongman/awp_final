@@ -1,0 +1,71 @@
+main {
+    height: 1500px;
+    position: relative;
+}
+
+aside {
+    float: left;
+    position: absolute;
+    margin: 50px 0 0 50px;
+    width: 100px;
+}
+aside h3 {
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom:  20px;
+    border-bottom: solid 2px #666;
+}
+aside .selected {
+    font-size: 20px;
+    font-weight: 700;
+}
+aside li {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #666;
+    transition: all .5s;
+}
+aside li:hover {
+    font-size: 20px;
+}
+aside li:last-child {
+    border-bottom: none;
+}
+
+section#items {
+    width: 1280px;
+    display: block;
+    margin: 50px auto;
+}
+section#items h3 {
+    font-weight: 600;
+}
+section#items .item_list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#items .item {
+    margin: 10px;
+}
+section#items .item div {
+    height: 336px;
+    overflow: hidden;
+}
+section#items .item img {
+    width: 300px;
+    transition: all .3s;
+    cursor: pointer;
+}
+section#items .item img:hover {
+    transform: scale(1.2);
+}
+section#items .item .subject {
+    margin-top: 10px;
+    font-weight: 600;
+}
+section#items .item .comment {
+    color: #666;
+    margin: 2px 0;
+}

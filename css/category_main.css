@@ -1,0 +1,56 @@
+section#main {
+    padding-top: 100px;
+    height: 1200px;
+    border-top: 2px solid #ccc;
+}
+
+section#main h3 {
+    margin-top: -30px;
+    font-size: 30px;
+    opacity: 0;
+    transition: all 1s;
+}
+section#main .cat_1, .cat_2, .cat_3 {
+    float: left;
+    position: relative;
+    height: 392px;
+    transition: all 1s;
+}
+section#main .cat_2 {
+    float: right;
+}
+section#main .cover {
+    position: absolute;
+    width: 1400px;
+    height: 392px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s;
+}
+section#main .cat_1:hover, .cat_2:hover {
+    height: 500px;
+}
+section#main .cat_1:hover .cover {
+    opacity: .5;
+}
+section#main .cat_2:hover .cover {
+    opacity: .5;
+}
+section#main .cat_3:hover .cover {
+    opacity: .5;
+}
+section#main .cat_1:hover h3 {
+    margin-top: 10px;
+    opacity: 1;
+}
+section#main .cat_2:hover h3 {
+    margin-top: 10px;
+    opacity: 1;
+}
+section#main .cat_3:hover h3 {
+    margin-top: 10px;
+    opacity: 1;
+}

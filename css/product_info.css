@@ -1,0 +1,63 @@
+.product {
+    height: 800px;
+}
+.image {
+    float: left;
+    margin: 80px 0 0 20px;
+    width: 550px;
+    height: 620px;
+}
+.image img {
+    width: 550px;
+}
+.info {
+    width: 600px;
+    float: right;
+    margin: 200px 20px 0 0;
+    text-align: left;
+}
+.info .name {
+    font-size: 25px;
+    float: left;
+}
+.info .price {
+    float: right;
+    font-weight: 500;
+    font-size: 20px;
+}
+.category {
+    margin: -120px 0 50px 0;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.spec {
+    margin: 100px 0 15px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #666;
+}
+.detail p {
+    line-height: 25px;
+}
+.detail ul {
+    margin: 20px 0 35px -10px;
+}
+.detail li {
+    padding: 5px;
+}
+.buy {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    transition: all .3s;
+}
+.buy:hover {
+    background-color: #666;
+}
+.buy a {
+    color: white;
+}

@@ -1,0 +1,76 @@
+section#main_banner .banner_0 .imgWrap {
+    position: relative;
+}
+section#main_banner .banner_0 .imgWrap .imgbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    opacity: 0;
+    transition: opacity .3s linear;
+    pointer-events: none;
+}
+section#main_banner .banner_0 img {    
+    width: 100%;
+    max-width: inherit;
+    margin: auto;
+    transition: opacity 0.3s linear;
+}
+section#main_banner .banner_0 .imgWrap:hover .imgbg {
+    opacity: 0.5;
+}
+section#main_banner .banner_0 .imgWrap:hover p {
+    opacity: 1;
+}
+section#main_banner .banner_0 {
+    position: relative;
+}
+section#main_banner .banner_0 p {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    font-weight: 600;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+section#best_sell {
+    margin-top: 90px;
+}
+section#best_sell h3 {
+    font-weight: 600;
+}
+section#best_sell .item_list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#best_sell .item {
+    margin: 20px;
+}
+section#best_sell .item div {
+    height: 336px;
+    overflow: hidden;
+}
+section#best_sell .item img {
+    width: 300px;
+    transition: all .3s;
+    cursor: pointer;
+}
+section#best_sell .item img:hover {
+    transform: scale(1.2);
+}
+section#best_sell .item .subject {
+    margin-top: 10px;
+    font-weight: 600;
+}
+section#best_sell .item .comment {
+    color: #666;
+    margin: 2px 0;
+}
